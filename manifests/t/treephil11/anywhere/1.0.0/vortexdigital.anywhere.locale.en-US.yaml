@@ -1,0 +1,31 @@
+PackageIdentifier: treephil11.anywhere
+PackageVersion: 1.0.0
+PackageLocale: en-US
+Publisher: VortexDigital
+PublisherUrl: https://vortexdigit.al
+PackageName: anywhere
+License: MIT
+ShortDescription: Lightning-fast Everything Search TUI for the terminal
+Description: |-
+  anywhere is an interactive terminal UI for voidtools Everything Search.
+  It connects directly to the Everything service via SDK (no subprocess
+  overhead), delivering near-instant results as you type.
+
+  Features:
+    • Instant results via Everything SDK — no es.exe spawn overhead
+    • Live colour-scheme picker (14 themes across the rainbow + pink)
+    • Open files/folders in Explorer with Enter
+    • Reveal in Explorer with Ctrl+O
+    • Copy path to clipboard with Ctrl+Y
+    • cd to selected folder with Ctrl+D (via `any` shell wrapper)
+    • Theme choice persisted across sessions
+Moniker: anywhere
+Tags:
+  - search
+  - everything
+  - tui
+  - terminal
+  - files
+  - cli
+ManifestType: defaultLocale
+ManifestVersion: 1.6.0
